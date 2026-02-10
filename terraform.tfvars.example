@@ -1,0 +1,6 @@
+resource_group_name = "hello-world-webapp-rg"
+location            = "eastus"
+app_service_plan_name = "hello-world-asp"
+app_service_name    = "hello-world-webapp-unique"  # Change this to a globally unique name
+app_service_sku     = "B1"
+environment         = "dev"
